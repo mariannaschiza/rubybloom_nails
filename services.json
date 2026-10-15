@@ -1,0 +1,282 @@
+{
+  "categories": [
+    {
+      "id": "manicure",
+      "name": "Μανικιούρ",
+      "sortOrder": 1
+    },
+    {
+      "id": "pedicure",
+      "name": "Πεντικιούρ",
+      "sortOrder": 2
+    },
+    {
+      "id": "artificialNails",
+      "name": "Τεχνητά νύχια",
+      "sortOrder": 3
+    }
+  ],
+  "services": [
+    {
+      "id": "manicure-basic",
+      "mainCategory": "manicure",
+      "category": "manicure",
+      "name": "Μανικιούρ απλό",
+      "durationMinutes": 30,
+      "price": 17,
+      "currency": "EUR",
+      "description": "Λιμάρισμα, περιποίηση επωνυχίων, μπάφερ, απλό βερνίκι, ενυδατική κρέμα χεριών και λάδι θρέψης.",
+      "isActive": true,
+      "bufferMinutes": 5,
+      "addOns": [
+        {
+          "id": "long-lasting-polish",
+          "name": "Βερνίκι μακράς διάρκειας",
+          "additionalPrice": 2,
+          "additionalDurationMinutes": 0
+        }
+      ]
+    },
+    {
+      "id": "manicure-semi",
+      "mainCategory": "manicure",
+      "category": "manicure",
+      "name": "Μανικιούρ ημιμόνιμο",
+      "durationMinutes": 45,
+      "price": 25,
+      "currency": "EUR",
+      "description": "Λιμάρισμα, περιποίηση επωνυχίων, μπάφερ, βερνίκι ημιμόνιμο, ενυδατική κρέμα χεριών και λάδι θρέψης.",
+      "isActive": true,
+      "bufferMinutes": 5,
+      "addOns": []
+    },
+    {
+      "id": "manicure-express-basic",
+      "mainCategory": "manicure",
+      "category": "manicure",
+      "name": "Μανικιούρ express απλό",
+      "durationMinutes": 20,
+      "price": 15,
+      "currency": "EUR",
+      "description": "Λιμάρισμα, μπάφερ και απλό βερνίκι.",
+      "isActive": true,
+      "bufferMinutes": 5,
+      "addOns": [
+        {
+          "id": "long-lasting-polish",
+          "name": "Βερνίκι μακράς διάρκειας",
+          "additionalPrice": 2,
+          "additionalDurationMinutes": 0
+        }
+      ]
+    },
+    {
+      "id": "manicure-express-semi",
+      "mainCategory": "manicure",
+      "category": "manicure",
+      "name": "Μανικιούρ express ημιμόνιμο",
+      "durationMinutes": 30,
+      "price": 20,
+      "currency": "EUR",
+      "description": "Express περιποίηση νυχιών με ημιμόνιμο βερνίκι.",
+      "isActive": true,
+      "bufferMinutes": 5,
+      "addOns": []
+    },
+    {
+      "id": "manicure-spa",
+      "mainCategory": "manicure",
+      "category": "spa",
+      "name": "Μανικιούρ Spa",
+      "durationMinutes": 45,
+      "price": 25,
+      "currency": "EUR",
+      "description": "Περιποίηση μανικιούρ με καθαρισμό, διαμόρφωση νυχιών, φροντίδα επωνυχίων και μασάζ χεριών με vegan ενυδατικό κερί.",
+      "isActive": true,
+      "bufferMinutes": 5,
+      "addOns": []
+    },
+    {
+      "id": "semi-removal",
+      "mainCategory": "manicure",
+      "category": "removal",
+      "name": "Αφαίρεση ημιμόνιμου",
+      "durationMinutes": 15,
+      "price": 7,
+      "currency": "EUR",
+      "description": "Αφαίρεση ημιμόνιμου βερνικιού.",
+      "isActive": true,
+      "bufferMinutes": 5,
+      "addOns": []
+    },
+    {
+      "id": "pedicure-basic",
+      "mainCategory": "pedicure",
+      "category": "pedicure",
+      "name": "Πεντικιούρ απλό",
+      "durationMinutes": 45,
+      "price": 25,
+      "currency": "EUR",
+      "description": "Λιμάρισμα, κόψιμο επωνυχίων, μπάφερ, ράσπα, βερνίκι, κρέμα, ενυδατική κρέμα ποδιών και λάδι θρέψης.",
+      "isActive": true,
+      "bufferMinutes": 5,
+      "addOns": []
+    },
+    {
+      "id": "pedicure-long-lasting",
+      "mainCategory": "pedicure",
+      "category": "pedicure",
+      "name": "Πεντικιούρ με χρώμα διαρκείας",
+      "durationMinutes": 40,
+      "price": 25,
+      "currency": "EUR",
+      "description": "Πεντικιούρ με χρώμα διαρκείας.",
+      "isActive": true,
+      "bufferMinutes": 5,
+      "addOns": []
+    },
+    {
+      "id": "pedicure-semi",
+      "mainCategory": "pedicure",
+      "category": "pedicure",
+      "name": "Πεντικιούρ ημιμόνιμο",
+      "durationMinutes": 50,
+      "price": 30,
+      "currency": "EUR",
+      "description": "Λιμάρισμα, κόψιμο επωνυχίων, μπάφερ, ράσπα, βερνίκι ημιμόνιμο, κρέμα, ενυδατική κρέμα ποδιών και λάδι θρέψης.",
+      "isActive": true,
+      "bufferMinutes": 5,
+      "addOns": []
+    },
+    {
+      "id": "pedicure-express-basic",
+      "mainCategory": "pedicure",
+      "category": "pedicure",
+      "name": "Πεντικιούρ express απλό",
+      "durationMinutes": 10,
+      "price": 20,
+      "currency": "EUR",
+      "description": "Λιμάρισμα, μπάφερ και απλό βερνίκι.",
+      "isActive": true,
+      "bufferMinutes": 5,
+      "addOns": []
+    },
+    {
+      "id": "pedicure-express-long-lasting",
+      "mainCategory": "pedicure",
+      "category": "pedicure",
+      "name": "Πεντικιούρ express διαρκείας",
+      "durationMinutes": 20,
+      "price": 12,
+      "currency": "EUR",
+      "description": "Express πεντικιούρ με χρώμα διαρκείας.",
+      "isActive": true,
+      "bufferMinutes": 5,
+      "addOns": []
+    },
+    {
+      "id": "pedicure-express-semi",
+      "mainCategory": "pedicure",
+      "category": "pedicure",
+      "name": "Πεντικιούρ express ημιμόνιμο",
+      "durationMinutes": 30,
+      "price": 25,
+      "currency": "EUR",
+      "description": "Express πεντικιούρ με ημιμόνιμο βερνίκι.",
+      "isActive": true,
+      "bufferMinutes": 5,
+      "addOns": []
+    },
+    {
+      "id": "pedicure-spa",
+      "mainCategory": "pedicure",
+      "category": "spa",
+      "name": "Πεντικιούρ Spa",
+      "durationMinutes": 60,
+      "price": 35,
+      "currency": "EUR",
+      "description": "Περιποίηση πεντικιούρ με καθαρισμό, διαμόρφωση νυχιών, φροντίδα επωνυχίων, απολεπιστικό scrub και επαγγελματική μαλακτική κρέμα.",
+      "isActive": true,
+      "bufferMinutes": 10,
+      "addOns": []
+    },
+    {
+      "id": "pedicure-therapeutic",
+      "mainCategory": "pedicure",
+      "category": "pedicure",
+      "name": "Πεντικιούρ θεραπευτικό",
+      "durationMinutes": 60,
+      "price": 50,
+      "currency": "EUR",
+      "description": "Λιμάρισμα, μπάφερ, περιποίηση επωνυχίων, βερνίκι, ράσπα και περιποίηση κάλων και σκληρύνσεων. Η αρχική περιγραφή αναφέρει θεραπεία διάρκειας 15–20 λεπτών.",
+      "isActive": true,
+      "bufferMinutes": 10,
+      "addOns": []
+    },
+    {
+      "id": "artificial-natural-strengthening",
+      "mainCategory": "artificialNails",
+      "category": "naturalStrengthening",
+      "name": "Φυσική ενίσχυση, ακρυλικό ή ακριτζέλ",
+      "durationMinutes": 90,
+      "price": 50,
+      "currency": "EUR",
+      "description": "Φυσική ενίσχυση νυχιών με ακρυλικό ή ακριτζέλ.",
+      "isActive": true,
+      "bufferMinutes": 10,
+      "addOns": []
+    },
+    {
+      "id": "artificial-dipping",
+      "mainCategory": "artificialNails",
+      "category": "naturalStrengthening",
+      "name": "Φυσική ενίσχυση dipping",
+      "durationMinutes": 60,
+      "price": 40,
+      "currency": "EUR",
+      "description": "Φυσική ενίσχυση νυχιών με τη μέθοδο dipping.",
+      "isActive": true,
+      "bufferMinutes": 10,
+      "addOns": []
+    },
+    {
+      "id": "artificial-extension-no3",
+      "mainCategory": "artificialNails",
+      "category": "extension",
+      "name": "Επιμήκυνση νο3",
+      "durationMinutes": 120,
+      "price": 65,
+      "currency": "EUR",
+      "description": "Επιμήκυνση τεχνητών νυχιών σε μήκος νο3.",
+      "isActive": true,
+      "bufferMinutes": 10,
+      "addOns": []
+    },
+    {
+      "id": "artificial-maintenance",
+      "mainCategory": "artificialNails",
+      "category": "maintenance",
+      "name": "Συντήρηση τεχνητών",
+      "durationMinutes": 75,
+      "price": 45,
+      "currency": "EUR",
+      "description": "Συντήρηση και ανανέωση τεχνητών νυχιών.",
+      "isActive": true,
+      "bufferMinutes": 10,
+      "addOns": []
+    },
+    {
+      "id": "artificial-removal",
+      "mainCategory": "artificialNails",
+      "category": "removal",
+      "name": "Αφαίρεση τεχνητών",
+      "durationMinutes": 30,
+      "price": null,
+      "currency": "EUR",
+      "description": "Αφαίρεση τεχνητών νυχιών.",
+      "isActive": true,
+      "bufferMinutes": 5,
+      "addOns": []
+    }
+  ]
+}
